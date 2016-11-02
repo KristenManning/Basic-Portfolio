@@ -1,0 +1,94 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/grunge_wall.png");
+    background-color: #ffffff;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+h2, h3 {
+    color: #4aaaa5;
+
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+p, li {
+    font-size: 16px;
+    font-family: Helvetica;
+    line-height: 18px;
+    color: #777777;
+}
+
+#main_header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #777777;
+    height: 15%;
+    width: 100%;
+    font-family: Helvetica;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+
+}
+
+#name {
+    background-color: #4aaaa5; 
+    height: 40px;
+    width: 18%;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    top: 0;
+    left: 60;
+    position: absolute;
+}
+
+.main_content, .sidebar {
+    background-color: #ffffff;
+    padding: 20px;
+    color: #777777;
+    font-family: Helvetica;
+    margin-right: 40px;
+    border-color: #dddddd;
+    position: relative;
+    float: left;
+}
+
+.main_content {
+    width: 650px;
+    left: 0;
+    top: 0;
+}
+
+.sidebar {
+    width: 270px;
+}
+}
+
+
+
+   
+
